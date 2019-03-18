@@ -1,0 +1,88 @@
+3
+2
+table_a
+3 3
+id_a a1 a2
+3 6 7
+2 4 5
+1 2 3
+table_b
+3 3
+id_b b1 b2
+3 12 7
+2 10 5
+1 2 9
+3
+SELECT *
+FROM table_a
+JOIN table_b
+ON table_a.a1 = table_b.b1
+
+SELECT *
+FROM table_a ta
+JOIN table_b tb
+ON ta.a2 = tb.b2
+
+SELECT ta.a1, ta.a2, tb.b1
+FROM table_a ta
+JOIN table_b tb
+ON ta.a2 = tb.b2
+
+2
+table_a
+3 3
+id_a a1 a2
+3 6 7
+2 4 5
+1 2 3
+table_b
+3 3
+id_b b1 b2
+3 12 7
+2 10 5
+1 2 9
+3
+SELECT *
+FROM table_a
+JOIN table_b
+ON table_a.a1 = table_b.b1
+
+SELECT *
+FROM table_a ta
+JOIN table_b tb
+ON ta.a2 = tb.b2
+
+SELECT ta.a1, ta.a2, tb.b1
+FROM table_a ta
+JOIN table_b tb
+ON ta.a2 = tb.b2
+
+2
+table_a
+3 3
+id_a a1 a2
+3 6 7
+2 4 5
+1 2 3
+table_b
+3 3
+id_b b1 b2
+3 12 7
+2 10 5
+1 2 9
+3
+SELECT *
+FROM table_a
+JOIN table_b
+ON table_a.a1 = table_b.b1
+
+SELECT *
+FROM table_a ta
+JOIN table_b tb
+ON ta.a2 = tb.b2
+
+SELECT ta.a1, ta.a2, tb.b1
+FROM table_a ta
+JOIN table_b tb
+ON ta.a2 = tb.b2
+
